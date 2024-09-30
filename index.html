@@ -20,17 +20,27 @@
 <th>Grades</th>
 </tr>
 <tr>
-<td class="subject">subject 1</td>
-<td><input id="Units" type="number"></td>
-<td><input id="Grades" type="number"></td>
+    <td><input class="subjects" type="text" placeholder="Enter Subject"></td>
+    <td><input class="units" type="number" placeholder="Units"></td>
+    <td><input class="grades" type="number" placeholder="Grade"></td>
 </tr>
 <tr>
-    <td class="subject">subject 2</td>
-    <td><input id="Units" type="number"></td>
-    <td><input id="Grades" type="number"></td>
-    </tr>
+    <td><input class="subjects" type="text" placeholder="Enter Subject"></td>
+    <td><input class="units" type="number" placeholder="Units"></td>
+    <td><input class="grades" type="number" placeholder="Grade"></td>
+ </tr>
 </table>
-<button id="addBtn"> </button>
+<div class="btn">
+<button class="func_btn" onclick="calculateGWA()">Calculate GWA</button>
+<button class="func_btn" onclick="addRow()"> Add Subject</button>
+<button class="func_btn" onclick="removeRow()"> Remove Subject</button>
+</div>
    </section>
+   <section>
+    <h1 id="result">Please insert the units and grades to compute</h1>
+   </section>
+   <footer>
+    <p>@Caparas,Joaquin Gabriel</p>
+   </footer>
 </body>
 </html>
